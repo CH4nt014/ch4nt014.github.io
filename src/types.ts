@@ -13,6 +13,7 @@ export enum Platform {
 
 export enum GameEngine {
   Unity = "Unity",
+  UnityLearn = "Unity Learn",
   Unreal = "Unreal",
   OpenGL = "OpenGL",
 }
