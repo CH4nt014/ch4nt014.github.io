@@ -24,13 +24,33 @@ Beyond development, I am motivated by the challenge of transforming ideas into m
     
 export const games: Game[] = [
     {
+        name: "Shrunk Paws",
+        description: "Shrunk Paws is a 2D platformer focused on momentum and constant movement. " +
+            + "Instead of simply reaching the end of the level, players must keep up with their shrinking dog while overcoming environmental hazards.Every obstacle can slow you down, and losing sight of your companion for too long results in failure."+
+        +"This creates a fast- paced experience where timing, precision, and quick decision - making are just as important as platforming skills. ",
+        genres: ["Platform 2D","Pixel Art"],
+        platforms: [Platform.Windows],
+        engine: GameEngine.Unity,
+        links: [
+            //{ source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+        ],
+        media: [
+            { source: "/images/games/Stealth_Game/Screenshot_1.png", type: MediaType.Image },
+            { source: "/images/games/Stealth_Game/Screenshot_2.png", type: MediaType.Image },
+            { source: "/images/games/Stealth_Game/Screenshot_3.png", type: MediaType.Image },
+            { source: "/images/games/Stealth_Game/Screenshot_4.png", type: MediaType.Image },
+            { source: "/images/games/Stealth_Game/Screenshot_5.png", type: MediaType.Image },
+            { source: "/images/games/Stealth_Game/Screenshot_6.png", type: MediaType.Image },
+        ],
+    },
+    {
         name: "Stealth Game",
         description: "Stealth adventure in a haunted house. Try to avoid ghosts and the gargoyles watch to collect keys and unlock the door to go away",
         genres: ["Platform 3D", "Puzzle"],
         platforms: [Platform.Windows],
-        engine: GameEngine.UnityLearn,
+        engine: GameEngine.Unity,
         links: [
-            { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+            //{ source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
         ],
         media: [
             { source: "/images/games/Stealth_Game/Screenshot_1.png", type: MediaType.Image },
@@ -46,9 +66,9 @@ export const games: Game[] = [
         description: "2D adventure where the player explore the world, interact with npc and try to save people from out-of-control robot",
         genres: ["Action-Adventure 2D"],
         platforms: [Platform.Windows],
-        engine: GameEngine.UnityLearn,
+        engine: GameEngine.Unity,
         links: [
-            { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+            //{ source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
         ],
         media: [
             { source: "/images/games/2D_Adventure/Screenshot_1.png", type: MediaType.Image },
@@ -63,7 +83,7 @@ export const games: Game[] = [
         platforms: [Platform.Windows],
         engine: GameEngine.Unreal,
         links: [
-            { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+            //{ source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
         ],
         media: [
             { source: "/images/games/Tile_Rush/Screenshot_1.png", type: MediaType.Image },
