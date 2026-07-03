@@ -25,9 +25,7 @@ Beyond development, I am motivated by the challenge of transforming ideas into m
 export const games: Game[] = [
     {
         name: "Shrunk Paws",
-        description: "Shrunk Paws is a 2D platformer focused on momentum and constant movement. " +
-            + "Instead of simply reaching the end of the level, players must keep up with their shrinking dog while overcoming environmental hazards.Every obstacle can slow you down, and losing sight of your companion for too long results in failure."+
-        +"This creates a fast- paced experience where timing, precision, and quick decision - making are just as important as platforming skills. ",
+        description: "Shrunk Paws is a 2D platformer focused on momentum and constant movement. Instead of simply reaching the end of the level, players must keep up with their shrinking dog while overcoming environmental hazards.Every obstacle can slow you down, and losing sight of your companion for too long results in failure. This creates a fast- paced experience where timing, precision, and quick decision - making are just as important as platforming skills. ",
         genres: ["Platform 2D","Pixel Art"],
         platforms: [Platform.Windows],
         engine: GameEngine.Unity,
